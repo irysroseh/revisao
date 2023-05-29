@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+body{
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-blue{
+    width: 17.5rem;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+}
+.card-blue h1{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    font-weight: 700;
+}
+.bulinha-result{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+.result{
+    font-size: 55px;
+    color: hsl(0, 0%, 100%);
+}
+.todo{
+    color: hsl(241, 100%, 75%);
+}
+.subtitulo{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 500;
+}
+.texto{
+    color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 375px){
+
+}
